@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:10px;
+	margin:0;}
+h1{
+	text-align:center;
+	}
+#headerimage{
+	vertical-align:middle;
+	}
+body{
+	background-color:#A31A1D
+	}
+#login{
+	position:absolute;
+	top:50px;
+	right:50px;
+
+	}
+.word{
+	font-style:inherit;
+	color:#F1F1F1;
+	}
+.input{
+	align-content:center;
+	background:#252D29;
+	position:absolute;
+	right:350px;
+	}
+.kuang{
+	width:450px;
+	height:30px;
+	}
+.an{
+	width:100px;
+	height:50px;
+	}
+.center-block{
+	vertical-align:middle
+	}
+#img-div{
+	border:2px solid #000000;
+	position:absolute;
+	top:300px;
+	right:350px;
+	}
+#uploadLabel{
+	
+	position:absolute;
+	top:50px;
+	left:50px;
+	}
+#upLoadFieldID{
+	width:40px;
+	height:30px;
+	background-color:#434343;
+	}

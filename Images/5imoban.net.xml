@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings
+
+autoRotate="1"
+autoRotateSpeed="4"
+
+useSubtitle="0"
+useTooltip="1"
+useSecondCaption="1"
+
+spanX="400" 
+spanY="40"
+centerX="500" 
+centerY="300"
+
+distanceValue="0" 
+perspectiveRatio="0.5"
+minimumscale=".1" 
+turningspeed="4" 
+rotationKind="1" 
+
+useFocalBlur="1" 
+focalBlurValue=".6" 
+useMotionBlur="1" 
+motionBlurValue=".25" 
+useFadeOnMouseOver="1"
+mouseOverAlphaValue=".5"  
+useReflection="1" 
+reflectionAlphaValue=".5"
+/>
+
+<photos>
+	<photo imageURL="images/1.jpg" linkData="../web.html" linkType="URL" linkTarget="_blank" captionText="web" enableButtonWhenInFront="1" />
+	<photo imageURL="images/2.jpg" linkData="../linux.html" linkType="URL" linkTarget="_blank" captionText="linux"  enableButtonWhenInFront="1" />
+	<photo imageURL="images/3.jpg" linkData="../android.html" linkType="URL" linkTarget="_blank" captionText="android"  enableButtonWhenInFront="1" />
+	<photo imageURL="images/4.jpg" linkData="../arm.html" linkType="URL" linkTarget="_blank" captionText="嵌入式"  enableButtonWhenInFront="1" />
+	
+</photos>

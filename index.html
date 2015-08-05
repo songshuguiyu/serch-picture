@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcom</title>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.js" type="text/javascript"></script>
+<script src="js/swfobject.js" type="text/javascript"></script>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+<h1>aaaaaaa</h1>
+<div>
+	<div id="login">
+    <a class="word" href="" target="_blank">登录</a>
+    <a class="word" href="" target="_blank">注册</a>
+    </div>
+	<h1 align="center">
+                <img id="headerimage" src="http://pic32.nipic.com/20130819/3046733_133925579000_2.jpg" height="60px" /> WHERE YOU GO ?  </h1>
+</div>
+<div class="input">
+<form id="searchBing"  action="/" method="get" >
+        <input class="kuang" type="text"></textarea>   
+
+    <input class="an" type="button" value="search">
+</form></div>
+<script type=text/javascript>
+		var so = new SWFObject("flash/viewer.swf", "sotester", "990", "400", "9", "#8A2BE2");
+		so.addParam("wmode", "transparent");
+		so.addParam("flashvars", "&xmlLocation=images/5imoban.net.xml");
+		so.write("loader");
+	</script>
+<div id="img-div">
+	<img src="http://img.bendibao.com/tour/201210/15/20121015102151442.JPG" width="200px" height="300px"/>
+    <img src="http://img.bendibao.com/tour/201210/15/2012101594223628.JPG" width="200px" height="300px" />
+    <img src="http://pic33.nipic.com/20130908/10683290_182419413122_2.jpg"  width="200px" height="300px"/>
+
+</div>
+<label id="uploadLabel" >
+        <button id="uploadFileId" class="btn"  onclick=" document.getElementById('uploadBtn').click(); ">       
+            <span>图片搜索</span></button>
+        <input id="uploadBtn" type="file" accept="image/*" style="visibility: hidden; width: 0px; height: 0px"> </label>
+ 
+</div></div>
+</body>
+</html>
